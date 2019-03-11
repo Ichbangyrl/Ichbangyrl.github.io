@@ -3,7 +3,7 @@
 <head>
 
 <!-- Page Title -->
-    <title>Contact</title>
+    <title>Portfolio</title>
 
 <!-- Metadata -->
     <meta charset="UTF-8">
@@ -21,14 +21,15 @@
 <!-- Normalize CSS via CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 <!-- Required Plugin Stylesheets -->    
-    
+    <link rel="stylesheet" href="/css/lightgallery.min.css">
+    <link rel="stylesheet" href="/css/lg-transitions.min.css">
 <!-- My Awesome Styling -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
 <body>
-
+    
     <nav>
         <ul>
             <li><a href="/">Homeage</a></li>
@@ -36,33 +37,32 @@
             <li><a href="/portfolio.html">Portolio</a></li>
             <li><a href="/contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </nav>    
 
-    <h1>Contact</h1>
+    <h1>Portfolio</h1>
 
-    <form action="https://formspree.io/pmanikoth@ewu.edu" method="POST">
-       
-        <!-- Visible -->
-        <label for="name">Name</label>
-        <input type="text" name="name">
+
+    <div id="gallery-1">
+
+        <a href="https://picsum.photos/800/600?image=100">
+            <img src="https://picsum.photos/100/100?image=100" alt="">
+        </a>
+
+        <a href="https://picsum.photos/800/600?image=100">
+            <img src="https://picsum.photos/100/100?image=100" alt="">
+        </a>
         
-        <label for="_replyto">Email</label>
-        <input type="email" name="_replyto">
-       
-        <label for="comments">Comments</label>
-        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+        <a href="https://picsum.photos/800/600?image=100">
+            <img src="https://picsum.photos/100/100?image=100" alt="">
+        </a>
 
-        <input type="submit" value="Send">
+    </div>
 
-        <!-- Hidden -->
-        <input type="hidden" name="_next" value="/"/>
-
-    </form>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Plugins(s) -->
-    
+    <script src="/js/lightgallery-all.min.js"></script>  
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
 </body>
