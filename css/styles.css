@@ -2,11 +2,23 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background: #373e58;
 }
 
 * {
-  outline: 1px dotted black;
+  color: #F6CD25;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+
+}
+
+nav li {
+  margin: 10px;
 }
 
 /* Your Awesome Scripts */
