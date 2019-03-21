@@ -59,20 +59,25 @@
     <form action="https://formspree.io/ms.sarah.adkins@eagles.ewu.edu" method="POST">
        
         <!-- Visible -->
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        
-        <label for="_replyto">Email</label>
-        <input type="email" name="_replyto">
-       
-        <label for="comments">Comments</label>
-        <textarea name="comments" id="" cols="30" rows="10"></textarea>
-
-        <input type="submit" value="Send">
-
-        <!-- Hidden -->
-        <input type="hidden" name="_next" value="/"/>
-
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name">
+            </li>
+            <li>
+                <label for="_replyto">Email</label>
+                <input type="email" name="_replyto">
+            </li>
+            <li>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <input type="submit" value="Send">
+            </li>
+            <!-- Hidden -->
+            <input type="hidden" name="_next" value="/"/>
+        </ul>
     </form>
 
     <footer>
