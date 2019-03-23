@@ -31,11 +31,30 @@ nav ul{
 }
 
 nav li {
-  margin: 10px;
+  padding: 10px;
 }
 
 nav a {
   text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.me {
+  width: 15%;
+  height: 15%;
+}
+
+article p {
+  padding: 1rem;
 }
 
 form {
@@ -76,9 +95,13 @@ form input[type=button]:hover{
 	color: #373e58;
 }
 
+#gallery-1 {
+  max-width: 1000px;
+  margin: 0 auto 30px;
+}
+
 footer {
   text-align: center;
-  
 }
 
 
