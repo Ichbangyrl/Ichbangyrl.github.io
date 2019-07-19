@@ -2,11 +2,31 @@
   DIAGNOSTIC STYLING
 */
 body {
-  margin: auto 1rem;
   font-family: 'Sawarabi Mincho', sans-serif;
+  text-align: center;
 }
 
-p{
+p {
   font-family: 'Didact Gothic', sans-serif;
+  margin: auto 10rem;
 }
 
+.dark {
+  background-color: #F0F0F0;
+}
+
+footer {
+  background-color: #275D9D;
+  color: white;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  margin: 2rem;
+}
