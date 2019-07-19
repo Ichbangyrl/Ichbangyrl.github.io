@@ -6,6 +6,10 @@ body {
   text-align: center;
 }
 
+section {
+  padding: 1rem;
+}
+
 p {
   font-family: 'Didact Gothic', sans-serif;
   margin: auto 10rem;
