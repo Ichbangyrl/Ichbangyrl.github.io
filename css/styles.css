@@ -3,5 +3,10 @@
 */
 body {
   margin: auto 1rem;
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+p{
+  font-family: 'Didact Gothic', sans-serif;
 }
 
