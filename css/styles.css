@@ -6,8 +6,57 @@ body {
   text-align: center;
 }
 
-section {
-  padding: 1rem;
+/* section {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100px auto;
+  grid-template-areas: 
+    "iheader iheader"
+    "ip . iimg";
+    padding: 1rem;
+} */
+
+#introduction h1 {
+  grid-area: iheader;
+  text-align: start;
+}
+
+#introduction img {
+  grid-area: iimg;
+  width: 65%;
+  height: auto; 
+}
+
+#introduction p {
+  grid-area: ip;
+}
+
+#introduction {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px auto;
+  grid-template-areas: 
+    "iheader  iheader"
+    "ip  iimg";
+    padding: 1rem 1rem 2rem 2rem;
+}
+
+#projects h1 {
+  grid-area: pjheader;
+  text-align: start;
+}
+
+#projects article {
+  grid-area: pjarticle;
+}
+
+#projects {
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto;
+  grid-template-areas: 
+    "pjheader"
+    "pjarticle";
+    padding: 1rem 1rem 2rem 2rem;
 }
 
 p {
