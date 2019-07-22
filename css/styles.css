@@ -6,15 +6,10 @@ body {
   text-align: center;
 }
 
-/* section {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 100px auto;
-  grid-template-areas: 
-    "iheader iheader"
-    "ip . iimg";
-    padding: 1rem;
-} */
+#header {
+  text-align: start;
+  padding: 2rem;
+}
 
 #introduction h1 {
   grid-area: iheader;
@@ -59,6 +54,36 @@ body {
     padding: 1rem 1rem 2rem 2rem;
 }
 
+#projects article p {
+  grid-area: pjabio;
+}
+
+#projects article img {
+  grid-area: pjaimg;
+  width: auto;
+  height: 200px;
+}
+
+#projects article h3 {
+  grid-area: pjaheader;
+}
+
+#projects article  {
+  display: grid;
+  grid-template-columns: 50% ;
+  grid-template-rows: auto auto;
+  grid-template-areas: 
+    "pjaheader . pjaimg"
+    "pjabio . pjaimg";
+    margin: 3rem 1rem 1rem 1rem;
+}
+
+#contact,
+#experience,
+#education {
+  padding: 1rem 1rem 3rem 1rem;
+}
+
 p {
   font-family: 'Didact Gothic', sans-serif;
   margin: auto 10rem;
@@ -82,4 +107,13 @@ nav {
   display: flex;
   justify-content:space-between;
   margin: 2rem;
+}
+
+blockquote {
+  margin: 0;
+  padding: 1rem;
+}
+
+a{
+  color: #000;
 }
