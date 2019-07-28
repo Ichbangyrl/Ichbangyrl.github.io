@@ -8,7 +8,15 @@ body {
 
 #header {
   text-align: start;
-  padding: 2rem;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 240px;
+  padding-top: 40px;
+  border-top-width: 40px;
+  background: url(/img/background_mountains.svg) no-repeat;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #introduction h1 {
