@@ -1,6 +1,10 @@
 /*
   DIAGNOSTIC STYLING
 */
+:root{
+  --blue: #275D9D;
+}
+
 body {
   font-family: 'Sawarabi Mincho', sans-serif;
   text-align: center;
@@ -91,6 +95,8 @@ body {
 #education {
   padding: 1rem 1rem 3rem 1rem;
 }
+
+
 
 p {
   font-family: 'Didact Gothic', sans-serif;
